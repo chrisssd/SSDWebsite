@@ -1,0 +1,119 @@
+body {
+        background-color:#222;
+        
+        
+        font-size: 1.8em;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+        color: #333;            
+        font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+ 
+    }
+
+
+.bgImage {            
+            
+              position: fixed;
+              top: 0; left: 0;
+              right: 0; bottom: 0;
+              z-index: -1;
+           -webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+}
+
+
+.jumbotron {
+  margin-bottom: 0px;
+
+  background:rgba(255,255,255,0.5);
+}
+
+.clicker {
+    cursor: pointer;
+}
+.bannerLogo {
+    
+    position:fixed;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 60px;
+    background:rgba(255,255,255,0.5);
+    display:none;    
+    font-size: 110%;
+    font-weight: normal;
+    letter-spacing: .3em;
+    z-index:999;
+}
+.imgCenter .img-responsive {
+    margin: 0 auto;
+}
+.splashLogo {
+       position: absolute;
+       top: 0;
+       left: 0;
+       bottom: 0;
+       right: 0;
+       margin: auto;
+   
+    height: 800px;
+    width: 100%;    
+    background:rgba(30,87,153,0.5);
+
+  }
+.splashLogo img {
+    cursor:pointer;
+     margin: 0 auto;
+   }
+.splashLogo a:link  {
+   
+    color:rgba(255,106,0,0.7);
+}
+.splashLogo a:visited  {
+    color: #FF6A00;
+}
+.callText {
+    color:rgba(239,239,239,0.7);
+    font-size: 110%;
+    letter-spacing: .3em;
+    font-family: "calibri light", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.logoHint 
+{
+    color: #cccccc;
+    font-size: 90%;
+}
+
+.contentData {
+    padding:20px;
+    margin-top: 90px;
+   background:rgba(239,239,239,0.9);
+    z-index: 0;
+
+}
+
+.social {
+    position: fixed;
+    top:0;  
+    
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 20px; /* bottom = footer height */
+}
+footer {
+    position: absolute;
+     color:rgba(239,239,239,0.5);
+    font-size:75%;
+    left: 0;
+    bottom: 0;
+    height: 20px;
+    width: 100%;
+    background:rgba(0,0,0,0.5);
+}
+
